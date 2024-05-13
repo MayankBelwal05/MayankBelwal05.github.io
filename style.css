@@ -409,14 +409,13 @@ section .title::after{
 }
 
 .card-button:hover {
-    /* background-color: #00b386; */
     transform: scale(1.2);
 }
 /* github */
 .gitcalender{
     text-align: center;
     margin-bottom: 15px;
-    /* border: 2px solid green; */
+  
    
 }
 .gitcalender>img{
