@@ -319,6 +319,7 @@ section .title::after{
     grid-template-rows: repeat(4,1fr);
     row-gap: 5%;
     justify-content: center;
+    
 }
 .skills-card {
     /* border: 2px solid red; */
@@ -700,12 +701,13 @@ footer span a:hover{
         line-height: 38px;
     }
     .skills-content{
-        /* border: 2px solid green; */
+        border: 2px solid green;
         display: grid;
         grid-template-columns: repeat(2,1fr ); /* Display 5 items per row */
         grid-template-rows: repeat(11,1fr);
         row-gap: 5%;
         justify-content: center;
+        background-color: black;
     }
     .card-container {
         display: flex;
