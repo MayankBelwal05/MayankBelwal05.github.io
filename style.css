@@ -88,7 +88,8 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: teal;
+    /* background: teal; */
+    background: rgb(2, 2, 2);
 }
 .navbar .max-width{
     display: flex;
@@ -374,7 +375,7 @@ section .title::after{
 .project-card:hover  {
    background-color: teal;
    color: white;
-   transform: scale(1.1);
+   transform: scale(1.05);
    
 }
 .project-card:hover .card-button{
